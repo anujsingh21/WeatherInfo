@@ -1,0 +1,40 @@
+body {
+ font-family: Arial, sans-serif; /* Set font family for the entire page */
+ background-color: #000000; /* Set background color */
+ color: #333; /* Set text color */
+ margin: 0; /* Remove default margin */
+ padding: 0; /* Remove default padding */
+}
+
+/* Hide main content by default */
+main {
+ display: none;
+}
+
+
+.search-bar {
+ display: flex; /* Make the search bar flex container */
+ align-items: center; /* Align items vertically */
+ padding: 60px;
+}
+
+.search-bar input[type="search"] {
+ flex: 1; /* Take remaining space */
+ border: 2px solid rgb(0, 0, 0); /* Remove border from input */
+ padding: 22px;
+ border-radius: 70px;
+}
+
+.search-bar button {
+ border: none; /* Remove border */
+ border-radius: 60px; /* Adjust border radius */
+ background-color: #258fff;
+ color: #fff; /* White text color */
+ padding: 20px 35px; /* Adjust padding as needed */
+ margin-left:2px;
+}
+
+.search-bar button:hover {
+ background-color: #0056b3; /* Darker blue on hover */
+}
+
