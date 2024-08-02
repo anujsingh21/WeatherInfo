@@ -22,14 +22,10 @@ This Weather Forecasting Application provides real-time weather updates by integ
 
 To get a local copy of the project up and running, follow these steps:
 
-### Prerequisites
-
-- Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
-- Obtain an API key from a weather data provider such as [OpenWeatherMap](https://openweathermap.org/) or [WeatherAPI](https://www.weatherapi.com/).
 
 ### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/anujsingh21/Weather-Forecasting-Application.git
+   git clone  https://github.com/anujsingh21/WeatherInfo.git
